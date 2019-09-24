@@ -5,7 +5,8 @@
 **Sistemas Clasicos Deterministicos:**
 Muestra el estado de un sistema clasico, despues de ciertos clicks de tiempo.
 
-**Sistema Probabilistco**
+**Sistema Probabilistco:**
+
 Muestra la probabilidad de que un elemento se encuentre en algun estado del sistema, despues de determinados clicks de tiempo.
 
 **Sistema Cuantico:**
@@ -61,7 +62,7 @@ Si lo prefiere puede usar el codigo depruebas y modificar los valores a su neces
 ![myimage-alt-tag](https://scontent-bog1-1.xx.fbcdn.net/v/t1.15752-9/71056822_2372414239692893_8796974929317724160_n.png?_nc_cat=107&_nc_oc=AQnxxKZxfDKNnTtRb7C7eWKHYEAEdA2K2HcZYb26oOFbhMuXHbqxi1s8eh25obYUSnQ&_nc_ht=scontent-bog1-1.xx&oh=a2292a87113e6bf2af5f086ea2fe7361&oe=5E374446) 
 
 
-![myimage-alt-tag](https://scontent-bog1-1.xx.fbcdn.net/v/t1.15752-9/70761707_682192895613485_8970786002314461184_n.png?_nc_cat=108&_nc_oc=AQnEM5LExX-nD9XvqGRQ6eYvxyioB_lxbcA2BNy1eXX5NFXiDo23a_SDX3TMs4CcC7k&_nc_ht=scontent-bog1-1.xx&oh=0379683216afe39ff016102489095870&oe=5E0240A18) 
+![myimage-alt-tag](https://scontent-bog1-1.xx.fbcdn.net/v/t1.15752-9/70761707_682192895613485_8970786002314461184_n.png?_nc_cat=108&_nc_oc=AQnEM5LExX-nD9XvqGRQ6eYvxyioB_lxbcA2BNy1eXX5NFXiDo23a_SDX3TMs4CcC7k&_nc_ht=scontent-bog1-1.xx&oh=0379683216afe39ff016102489095870&oe=5E0240A1) 
 
 
 # Ejemplo1:
