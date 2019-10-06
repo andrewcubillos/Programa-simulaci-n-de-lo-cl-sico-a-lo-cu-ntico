@@ -64,6 +64,23 @@ Si lo prefiere puede usar el codigo depruebas y modificar los valores a su neces
 
 ![myimage-alt-tag](https://scontent-bog1-1.xx.fbcdn.net/v/t1.15752-9/70761707_682192895613485_8970786002314461184_n.png?_nc_cat=108&_nc_oc=AQnEM5LExX-nD9XvqGRQ6eYvxyioB_lxbcA2BNy1eXX5NFXiDo23a_SDX3TMs4CcC7k&_nc_ht=scontent-bog1-1.xx&oh=0379683216afe39ff016102489095870&oe=5E0240A1) 
 
+# ...Ecplicacion:
+    def test1(self):
+        self.assertEqual([[0], 
+                          [0],
+                          [12],
+                          [5], 
+                          [1],
+                          [9]], 
+                         Programasimulaciondeloclasicoalocuantico.state([[False, False, False, False, False, False], 
+                                                                                                          [False, False, False, False, False, False], 
+                                                                                                          [False, True, False, False, False, True], 
+                                                                                                          [False, False, False, True, False, False], 
+                                                                                                          [False, False, True, False, False, False], 
+                                                                                                          [True, False, False, False, True, False]],
+                                                                                                         
+                                                                                                         [[6],[2],[1],[5],[3],[10]],             2))    
+
 
 # Ejemplo1:
 
