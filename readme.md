@@ -140,6 +140,10 @@ El segundo argumento de la funcion es la cantidad de clics(t+n), y con esto el s
                                                                                 [(0, 0), (0, 0), (-0.4082482904638631, -0.4082482904638631), (0, 0), (0, 0), (0, 0), (1, 0), (0, 0)],
                                                                                 [(0, 0), (0, 0), (0.4082482904638631, -0.4082482904638631), (0, 0), (0, 0), (0, 0), (0, 0), (1, 0)]]                  ,2))
 
+
+
+
+
 # Ejemplo1:
 
     def stateprobabilistic(X,Y,n):
