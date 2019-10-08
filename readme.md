@@ -1,6 +1,5 @@
 # Programa simulacion de lo clasico a lo cuantico
 
-# Operaciones Con Vectores y Matrices
 
 **Sistemas Clasicos Deterministicos:**
 Muestra el estado de un sistema clasico, despues de ciertos clicks de tiempo.
