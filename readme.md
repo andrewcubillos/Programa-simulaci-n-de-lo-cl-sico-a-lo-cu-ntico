@@ -110,7 +110,10 @@ El segundo argumento de la funcion es la cantidad de clics(t+n), y con esto el s
                                                                                      
                                                                                      
  **quantumstate**                                                                                    
-                                                                                     
+A la funcion se le ingresa  una matriz (primer argumento) la cual describe la forma en que se moverá una particula en un sistema cuantico después de hacer clic una vez.
+El segundo argumento de la funcion es la cantidad de clics(t+n), y con esto el simulador mostrara si el resultado es correcto, es decir si es igual al vector que esta antes de la llamada a la funcion.  
+
+
     def test3(self): 
         self.assertEqual([[0, 0, 0, 0, 0, 0, 0, 0],
                           [0, 0, 0, 0, 0, 0, 0, 0],
