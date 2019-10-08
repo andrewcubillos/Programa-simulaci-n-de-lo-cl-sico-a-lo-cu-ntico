@@ -144,6 +144,36 @@ El segundo argumento de la funcion es la cantidad de clics(t+n), y con esto el s
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Ejemplo1:
 
     def stateprobabilistic(X,Y,n):
