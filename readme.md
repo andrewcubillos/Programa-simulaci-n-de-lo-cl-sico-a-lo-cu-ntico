@@ -64,7 +64,10 @@ Si lo prefiere puede usar el codigo depruebas y modificar los valores a su neces
 
 ![myimage-alt-tag](https://scontent-bog1-1.xx.fbcdn.net/v/t1.15752-9/70761707_682192895613485_8970786002314461184_n.png?_nc_cat=108&_nc_oc=AQnEM5LExX-nD9XvqGRQ6eYvxyioB_lxbcA2BNy1eXX5NFXiDo23a_SDX3TMs4CcC7k&_nc_ht=scontent-bog1-1.xx&oh=0379683216afe39ff016102489095870&oe=5E0240A1) 
 
-# ...Ecplicacion:
+# ...Explicacion:
+**state** 
+Al simulador se le ingresa una matriz con el estado inicial del sistema, este es el primer argumento de la funcion state, el segundo argumento es un vector que representa el estado del sistema al momento t, asi con el tercer argumento que indica la cantidad de clicks, el simulador mostrara si el resultado es correcto, es decir si es igual al vector que esta antes de la llamada a la funcion.
+
     def test1(self):
         self.assertEqual([[0], 
                           [0],
@@ -79,9 +82,15 @@ Si lo prefiere puede usar el codigo depruebas y modificar los valores a su neces
                                                                                                           [False, False, True, False, False, False], 
                                                                                                           [True, False, False, False, True, False]],
                                                                                                          
-                                                                                                         [[6],[2],[1],[5],[3],[10]],             2))    
+                                                                                                         [[6],[2],[1],[5],[3],[10]],             2))   
+                                                                                                         
+**stateprobabilistic** 
+A la funcion se le ingresa un vector X(segundo argumento argumento) y una matriz M(primer argumento)  X expresa la probabilidad de la posición de una canica y M expresa la probabilidad de la forma en que se mueve la canica, entonces MX = Y  expresa la probabilidad de la ubicación de la canica después de moverse.
 
+tambien puede verse de esta forma: X es la probabilidad de la canica en el tiempo t, entonces MX es la probabilidad de
+en el tiempo t + 1.
 
+El tercer argumento de la funcion es la cantidad de clicks, y con esto el simulador mostrara si el resultado es correcto, es decir si es igual al vector que esta antes de la llamada a la funcion.
 
     def test2(self):
         self.assertEqual([[0.0], 
@@ -102,7 +111,10 @@ Si lo prefiere puede usar el codigo depruebas y modificar los valores a su neces
                                                                                       [0, 0, 0.3333333333333333, 0, 0, 0, 0, 1]],
                                                                                      
                                                                                      [[1],[0],[0],[0],[0],[0],[0],[0]],       2))
-
+                                                                                     
+                                                                                     
+ **quantumstate**                                                                                    
+                                                                                     
     def test3(self): 
         self.assertEqual([[0, 0, 0, 0, 0, 0, 0, 0],
                           [0, 0, 0, 0, 0, 0, 0, 0],
