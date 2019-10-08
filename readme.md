@@ -86,7 +86,8 @@ Al simulador se le ingresa una matriz con el estado inicial del sistema, este es
                                                                                                          
 **stateprobabilistic** 
 A la funcion se le ingresa  una matriz (primer argumento) la cual describe la forma en que se moverá una particula después de hacer clic una vez.
-El segundo argumento de la funcion es la cantidad de clics(t+n), y con esto el simulador mostrara si el resultado es correcto, es decir si es igual al vector que esta antes de la llamada a la funcion.
+El segundo argumento de la funcion es un vector que meustra los estados con la particula en 0
+El tercer argumento es la cantidad de clics(t+n), y con esto el simulador mostrara si el resultado es correcto, es decir si es igual al vector que esta antes de la llamada a la funcion.
 
     def test2(self):
         self.assertEqual([[0.0], 
@@ -111,7 +112,7 @@ El segundo argumento de la funcion es la cantidad de clics(t+n), y con esto el s
                                                                                      
  **quantumstate**                                                                                    
 A la funcion se le ingresa  una matriz (primer argumento) la cual describe la forma en que se moverá una particula en un sistema cuantico después de hacer clic una vez.
-El segundo argumento de la funcion es la cantidad de clics(t+n), y con esto el simulador mostrara si el resultado es correcto, es decir si es igual al vector que esta antes de la llamada a la funcion.  
+El segundo argumento de la funcion es la cantidad de clics(t+n), y con esto el simulador mostrara si el resultado es correcto, es decir si es igual a la matriz que esta antes de la llamada a la funcion.  
 
 
     def test3(self): 
